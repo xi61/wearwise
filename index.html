@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WearWise</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont;
+      padding: 20px;
+      max-width: 420px;
+      margin: auto;
+    }
+
+    button {
+      padding: 12px 16px;
+      font-size: 16px;
+      margin-top: 12px;
+    }
+
+    .card {
+      margin-top: 20px;
+      padding: 16px;
+      border-radius: 12px;
+      background: #f5f5f7;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>👕 WearWise</h1>
+  <p>Smart outfit suggestions based on your weather</p>
+
+  <button id="getOutfitBtn">Get Outfit Recommendation</button>
+
+  <div id="result" class="card" style="display:none"></div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
